@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        div{
+            
+            width: 400px;
+            height: 600px;
+            text-align: center;
+            border: 2px solid blue;
+
+        }
+        button{
+            width: 150px;
+            height: 40px;
+            font-size: 18px;
+            color: #fff;
+            cursor: pointer;
+            background-color: rebeccapurple;
+            border: none;
+            transition: 0.3s ease;
+            
+        }
+        button:hover{
+            background-color: red;
+            color: #000;
+            width: 180px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/02cd9a97ce874d89ba17ae2b003ebe50_9366/Zapatillas_adidas_Grand_Court_Lifestyle_para_Tenis_con_Cordones_Blanco_GW6511_01_standard.jpg" alt="" width="400px">
+
+        <h1>Zapatillas</h1>
+        <p>Precio:250</p>
+        <button onclick="facturacion('Zapatillas', 450)">Comprar Ahora!</button>
+    </div>
+    
+</body>
+</html>
